@@ -1,8 +1,9 @@
 # python-docker-webapp
+Builds a boilerplate web app that runs in a Docker container by using docker-compose.  Also includes remote bugging settings for running your IDE within the container.
 
 ## Prerequisites
 1. Install [Docker](https://docs.docker.com/get-docker/)
-2. Insure you have installed the extentions:
+2. For VS Code, insure you have installed the extentions:
     * [Docker Extention](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
     * [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
@@ -17,9 +18,9 @@ Detailed [instructions](https://code.visualstudio.com/docs/containers/overview) 
 ## Shut down the container
 `docker-compose down`
 
-## Connect to remote container
+## Running VS Code within the remote container
 
-1. Start the contaienr.
+1. Start the container.
 2. Right click on the green >< button in the lower left of VS Code.
 3. Select "Attach to Running Container"
 4. Install the Python extention in the remote session, if needed.
